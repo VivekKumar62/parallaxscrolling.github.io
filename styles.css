@@ -1,0 +1,120 @@
+
+body{
+    height:100%;
+    margin:0px;
+    font-size:16px;
+    font-weight: bold;
+    color:#fffcfc;
+    
+ 
+}
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.pic1{
+    background-image: url('pexels-robert-forever-ago-2517748.jpg');
+    background-size: cover;
+    height:100vh;
+}
+.pic2{
+    background-image: url('pexels-cottonbro-studio-6328293.jpg');
+    background-size: cover;
+    height:100vh;
+
+}
+
+.pic3{
+    background-image: url('pexels-guduru-ajay-bhargav-939729.jpg');
+    background-size: cover;
+    height:100vh;
+}
+.pic4{
+    background-image: url('pexels-pixabay-461593.jpg');
+    background-size: cover;
+    height:100vh;
+}
+.pic5{
+    background-image: url('pexels-hilmi-işılak-11183386.jpg');
+    background-size: cover;
+    height:100vh;
+}
+.pic6{
+    background-image: url('pexels-jahangeer-bm-1619299.jpg');
+    background-size: cover;
+    height:100vh;
+}
+.pic7{
+    background-image: url('pexels-valentine-kulikov-11012443.jpg');
+    background-size: cover;
+    height:100vh;
+}
+.pic8{
+    background-image: url('pexels-thành-trần-3788363.jpg');
+    background-size: cover;
+    height:100vh;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+ background-color: rgb(7, 7, 7);
+ color: rgb(255, 247, 247);
+
+}
+.section-dark{
+ background-color:darkgrey;
+ color: rgb(0, 0, 0);
+
+}
+
+.navbar{
+position: absolute;
+top:50%;
+width:100%;
+text-align: center;
+color: rgb(253, 253, 253);
+font-size: 27px;
+letter-spacing:8px;
+text-transform: uppercase;
+}
+.navbar1{
+position: absolute;
+top:10%;
+width:100%;
+text-align: center;
+color: rgb(253, 253, 253);
+font-size: 27px;
+letter-spacing:8px;
+text-transform: uppercase;
+}
+.lastitem{
+ position: absolute;
+ text-align: center;
+ color: rgb(255, 255, 255);
+  font-size: 27px;
+ letter-spacing:8px;
+ text-transform: uppercase;
+  width:100%;
+}
+
+
+
+.navbar.border{
+background-color:rgb(0, 0, 0);
+color:rgb(252, 246, 246);
+padding: 20px;
+}
+@media(max-width:568px){
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7{
+background-attachment: scroll;
+}
+}
+
+
